@@ -1,0 +1,11 @@
+node_modules/
+dist/
+target/
+*.log
+backend/uploads/*
+!backend/uploads/.gitkeep
+.DS_Store
+*.class
+*.jar
+*.war
+.settings/
