@@ -64,7 +64,7 @@ web/
 - [x] 修改密码功能
 
 ### 5. 管理员系统
-- [x] 管理员账号自动创建（admin / admin123）
+- [x] 管理员账号自动创建
 - [x] 管理员面板（用户管理 + 文章管理）
 - [x] 管理员可删除任意用户/文章
 - [x] 路由守卫保护管理员页面
@@ -129,7 +129,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/web_anime?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root          # 改为你的用户名
-    password: y112502          # 改为你的密码
+    password: root          # 改为你的密码
 ```
 
 ### 3. 启动后端
@@ -208,7 +208,7 @@ npm run dev
 
 ### 2026-04-26 管理员系统
 - User 实体添加 role 字段（user / admin）
-- 管理员账号自动创建（admin / admin123）
+- 管理员账号自动创建
 - 新增 AdminController 控制器
 - 新增 Admin.vue 管理面板
 - 导航栏管理员入口 + 路由守卫
@@ -252,7 +252,7 @@ npm run dev
 - 发表大量二次元相关内容（新番推荐、催泪盘点、入坑指南、绘画教程、辉夜姬深度解析等）
 
 ### 2026-04-27 每日新闻机器人
-- 创建机器人账号「萌域小助手」（moe-bot / bot123456）
+- 创建机器人账号「萌域小助手」
 - 接入 HOTACG 中文动漫新闻 RSS，每天早 8 点自动发布
 - 过滤漫展/游戏/周边等非纯动漫内容
 - 文章自动提取原文首图作为封面
