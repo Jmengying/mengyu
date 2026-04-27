@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(mysql --version)",
+      "Bash(mvn --version)",
+      "Bash(npm --version)",
+      "Bash(cmd.exe /c \"sc query MySQL80 2>nul || sc query MySQL 2>nul || echo MySQL service not found\")"
+    ]
+  }
+}
